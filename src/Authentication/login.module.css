@@ -1,0 +1,99 @@
+/**
+inset:- Set the distance to the parent element from the positioned <div> element:
+**/
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    min-height: 89vh;
+    /* giving background color*/
+    background: url('../Navbar/Assets/Backgroundlogin.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+
+.container form{
+    position: relative;
+    width: 500px;
+    height: 420px;
+    /* background-color: black; */
+    padding: 50px 40px;
+    border-radius: 8px;
+    border: 1px solid wheat;
+    background: none;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container form h2{
+    color:white;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.1em;
+    font-size: 2rem;
+    margin-bottom: 20px; /*Giving margin to the bottom...*/
+}
+
+.container form .inputfield{
+    position: relative;
+    width: 400px;
+    height: 40px;
+    margin-top: 35px;
+}
+
+.container .inputfield label{
+    color: #fff;
+    font-weight:medium;
+    padding: 10px 50px 10px 0px;
+    font-size: 1.2rem;
+}
+
+.inputfield input{
+    position: relative;
+    min-width: 40%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    background: none;
+    outline:none;
+    border-radius: 4px;
+    font-size: 1em;
+    box-shadow: none;
+    color: white;
+    text-shadow: 3px;
+    /* font-weight: bold; */
+}
+
+.inputfield input:hover{
+    background-color: white;
+    color: black;
+}
+
+
+.container button{
+    margin: 50px 10px 40px 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    padding: 10px 10px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size:larger;
+    border: 30%;
+}
+
+.container button:hover{
+    background-color: darkorchid;
+    border: 1px solid blueviolet;
+    color: black;
+    border-radius: 5px;
+}

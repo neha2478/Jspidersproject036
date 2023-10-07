@@ -1,0 +1,108 @@
+/***Designing The Register Page**/
+
+#box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 89vh;
+    background: url('../Navbar/Assets/regiterationback3.jpg');
+    background-size:cover;
+    background-repeat: none;
+    overflow: hidden;
+    z-index:2;
+    overflow: hidden;
+}
+
+#box form{
+    position: relative;
+    width: 480px;
+    height: 520px;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 1px solid wheat;
+    background: none;
+}
+
+#box form h2{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.1rem; /**Giving Letter Spacing**/
+    font-size:1.5rem; /*Giving font-size*/
+    margin: 20px 0px 20px 0px;
+}
+
+
+#box form .fieldreg{
+    position:relative;
+    font-weight: bold;
+    /* width: 500px; */
+    height: 50px;
+    /* font-size: 1.2rem; */
+}
+
+#box .fieldreg label{
+    color: white;
+    font-weight: bold;
+    padding: 10px 50px 10px 0px;
+    font-size: 1.2rem;
+}
+
+.fieldreg  input{
+    position: relative;
+    min-width: 40%;
+    height: 70%;
+    margin-bottom: 20px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    background: none;
+    border-radius:4px;
+    font-size: 1em;
+    box-shadow: none;
+    color: white;
+    text-shadow: 3px;
+    flex: block;
+}
+
+.fieldreg input:hover{
+    background-color: plum;
+    color: black;
+}
+
+
+#fieldgender {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    gap: 40px;
+    color:#fff;
+    font-size: 1.3rem;
+    margin-top: 15px;
+}
+
+#box button{
+    margin: 40px 110px 40px 110px;
+    background-color: #007BFF;
+    width: 50%;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    padding: 10px 10px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size:larger;
+    border: 30%;
+}
+
+#box button:hover{    
+    background-color: rgb(226, 54, 54);
+    border: 1px solid brown;
+    color: black;
+}

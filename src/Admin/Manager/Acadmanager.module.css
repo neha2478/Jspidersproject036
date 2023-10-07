@@ -1,0 +1,111 @@
+#acdregister{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    min-height: 89vh;
+    background: url('/src/Navbar/Assets/blue-seral.avif');
+    background-size: cover; 
+    background-repeat:none;
+    overflow: hidden;
+}
+
+
+#acdregister form{
+    position: relative;
+    width: 380px;
+    height: 500px;
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 40px;
+    margin-right: 120px;
+    border-radius: 8px;
+    border: 2px solid greenyellow;
+    background: none;
+}
+
+
+#acdregister form h2{
+    color: black;
+    font-weight:bold;
+    font-size: 1.4rem;
+    width: 100%;
+    /* letter-spacing: 0.1rem; */
+    text-shadow:thistle;
+    /* margin: 20px 0px 10px 0px; */
+    margin-bottom: 10px;
+}
+
+
+.acdinput{
+    position: relative;
+    font-weight: bold;
+    /* height: 50px; */
+}
+
+
+.acdinput input{
+    position: relative;
+    min-width: 40%;
+    height: 70%;
+    margin-bottom: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #000;
+    background: none;
+    border-radius:4px;
+    font-size: 1rem;
+    font-weight: 1.3rem;
+    box-shadow: none;
+    color: azure;
+    text-shadow: 3px;
+    flex: block;
+}
+
+.acdinput input:active{
+    background-color: whitesmoke;
+    color: black
+}
+
+.acdinput input:hover{
+    background-color: whitesmoke;
+    color: black
+}
+
+
+#acdgender{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    padding-top: 3px;
+    padding-bottom: 10px;
+    gap: 20px;
+    color:#000;
+    font-weight: 1.3rem;
+    font-size: 1rem;
+}
+
+#acdregister button{
+    margin: 20px 160px 30px 100px;
+    background-color: rgb(92, 198, 92);
+    border: 2px solid black;
+    width: 40%;
+    color: #000;
+    border: none;
+    border-radius: 2px;
+    padding: 10px 10px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    /* transition: background-color 0.3s; */
+    font-size:larger;
+    border: 30%;
+}
+
+
+#acdregister button:hover{
+    background-color: green;
+    border: 1px solid blueviolet;
+    color: black;
+    border-radius: 5px;
+}
